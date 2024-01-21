@@ -1,0 +1,74 @@
+:root{
+  --bg-color:#4E2C2C;
+  --border-radius:6px;
+  --text-color:#FFFFFF;
+  --font-size:16px;
+  --font-weight:400;
+}
+
+input[type="text"].text-input-trait-panel{
+  background-color:#4E2C2C;
+  border-radius: var(--border-radius-text-area);
+  outline: none;
+  border: none;
+  width: calc(100% - 30px);
+  /* height: 91px; */
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  color: var(--text-color);
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-right: 7px;
+  border-radius: 6px;
+  padding-bottom: 12px;
+}
+
+input[type="text"].text-input-trait-panel:focus{
+  border: 1px solid gray;
+}
+
+/* input[type="text"].text-input-trait-panel:valid{
+  border: 1px solid rgba(0, 128, 0, 0.755);
+}
+input[type="text"].text-input-trait-panel:invalid{
+  border: 1px solid red;
+} */
+
+input[type="number"].number-input-normal {
+  width: 36px;
+  height: 28px;
+  background-color: #462627;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.8125rem;
+  appearance: none;
+  -moz-appearance: textfield;
+  padding: 1px;
+}
+
+
+input[type="number"].text-input-trait-panel::-webkit-outer-spin-button,
+input[type="number"].text-input-trait-panel::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"].text-input-trait-panel{
+  background-color: var(--bg-color-text-area);
+  border-radius: var(--border-radius-text-area);
+  outline: none;
+  border: none;
+  width: 4rem;
+  height: 1.2rem;
+  padding-left: 6px;
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  color: var(--text-color);
+}
+

@@ -1,0 +1,61 @@
+/* ck ck-content ck-editor__editable ck-rounded-corners ck-editor__editable_inline ck-blurred */
+:root{
+    --te-btn-bg:rgb(72, 40, 41);
+}
+span:hover{
+    background-color: transparent;
+}
+
+.quill{
+    background-color: var(--te-btn-bg);
+    border-radius: 4px;
+}
+.ql-toolbar.ql-snow{
+    border-radius: 4px;
+    border: none;
+    /* border-bottom: 1px solid #cccc; */
+}
+.ql-toolbar.ql-snow > .ql-formats ,.ql-formats svg, .ql-picker-label{
+    color: white;
+    fill: white;
+}
+
+.ql-snow .ql-stroke{
+    stroke: #fff;
+}
+
+.ql-container.ql-snow{
+    border: none;
+    color: white;
+    max-width: calc(100% - 1.875rem);
+}
+.ql-editor > *{
+    max-width: 11.9375rem;
+}
+
+.ql-picker-options {
+    position: absolute;
+    right: -20px;
+    left: 0;
+    z-index: 8;
+}
+
+
+.ck.ck-content.ck-editor__editable{
+    background-color: #4E2C2C;
+    border-radius: 6px !important;
+    outline: none;
+    border: none;
+    resize: none;
+    width: calc(100% - 1.875rem);
+    height: 5.6875rem;
+    padding-left: 0.6rem;
+    padding-top: 0.6rem;
+    padding-right: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+.ck.ck-content.ck-editor__editable > *{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}

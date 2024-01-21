@@ -1,0 +1,74 @@
+.gjs-rte-toolbar {
+  box-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.3), 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.44);
+  border-radius: 0.1875rem;
+  top:-84px !important;
+}
+.gjs-rte-action {
+  font-size: 16px;
+  border-right: none;
+  padding: 0.625rem;
+  /* min-width: 2.1875rem; */
+}
+#rte-font-color.gjs-rte-action , #rte-font-hilite{
+  padding: 0.4rem;
+}
+.gjs-rte-actionbar {
+  max-width: 37.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.rte-hilite-btn {
+  padding: 0.1875rem 0.375rem;
+  border-radius: 0.1875rem;
+  background: #2b1313;
+}
+.rte-color-picker {
+  display: none;
+  padding: 0.625rem;
+  box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.2), 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.34);
+  border-radius: 0.3125rem;
+  position: absolute;
+  top: 4.4375rem;
+  width: 15.625rem;
+  transition: all 2s ease;
+}
+.rte-color-picker:before {
+  content: "";
+  position: absolute;
+  top: -1.25rem;
+  left: 46%;
+  border-width: 0.625rem;
+  border-style: solid;
+}
+.rte-color-picker.dark {
+  background: rgba(0, 0, 0, 0.8);
+}
+.rte-color-picker.dark:before {
+  border-color: transparent transparent rgba(0, 0, 0, 0.75) transparent;
+}
+.rte-color-picker.light {
+  background: rgba(255, 255, 255, 0.75);
+}
+.rte-color-picker.light:before {
+  border-color: transparent transparent rgba(255, 255, 255, 0.75) transparent;
+}
+.rte-color-picker > div {
+  width: 1.875rem;
+  display: inline-block;
+  height: 1.875rem;
+  margin: 0.3125rem;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+.rte-color-picker > div:hover {
+  opacity: 1;
+}
+.picker-wrapper {
+  padding: 1.25rem;
+}
+
+.gjs-rte-inactive{
+  display: none;
+  width: 0;
+  height: 0;
+}

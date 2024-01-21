@@ -1,0 +1,33 @@
+/* cke_editable cke_editable_inline cke_contents_ltr cke_show_borders */
+
+span.text-input-cke{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+span.text-input-cke:hover{
+    background-color: transparent;
+}
+span.text-input-cke > .cke_editable {
+    height: 38px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin: 0;
+
+    width: calc(100% - 1.875rem);
+}
+span.text-input-cke > .cke_editable > *{
+    padding: 0;
+    margin: 0%;
+}
+
+
+/* Inline #9 | http://localhost:5173/ */
+
+span.text-input-cke > .cke_editable  {
+    height: 22px;
+    padding-top: 8px;
+  }
+  

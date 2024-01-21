@@ -1,0 +1,434 @@
+.shareControl,
+.publishControl,
+.audioControl,
+.alginControl,
+.textControl,
+.zoomControl {
+  position: relative;
+  opacity: 1;
+  z-index: 3;
+}
+.deviceControl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  column-gap: 1.2em;
+  width: 6.9em;
+  height: 38px;
+  z-index: 99;
+  justify-items: flex-start;
+}
+
+.deviceControl .gjs-pn-buttons > span :hover {
+  /* margin-top: 0px;
+  padding: 10px; */
+  cursor: pointer;
+}
+.gjs-pn-btn > svg {
+  margin-top: 3px;
+}
+.gjs-pn-devices-c {
+  background: #4a2828 0% 0% no-repeat padding-box !important;
+  border-radius: 6px;
+  min-height: 38px !important;
+}
+.gjs-pn-panel {
+  padding: unset !important;
+}
+.gjs-pn-btn {
+  background-size: cover !important;
+  min-height: 38px !important;
+  margin-top: unset !important;
+  /* background-color: transparent !important; */
+}
+.gjs-pn-buttons > :first-child {
+  /* Apply styling to the first child here */
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.gjs-pn-buttons > :last-child {
+  margin-right: 0px !important;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.peopleControl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 40px;
+}
+.peopleControl span {
+  margin-top: 5px;
+  position: absolute;
+  width: 2em;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.ppl1 {
+  background-image: url(../Panel/layers/assets/IMG_1324.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;
+  transform: translate(0%, 0%);
+}
+.ppl2 {
+  background-image: url(../Panel/layers/assets/IMG_1325.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 50%;
+  transform: translate(40%, 0);
+}
+.ppl3 {
+  background-image: url(../Panel/layers/assets/IMG_1322.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  transform: translate(80%, 0);
+}
+.viewControl {
+  background-image: url(../Panel/layers/assets/eye.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 5px;
+  border: 1px #f4f4f4 solid;
+  /* width: 4.6em; */
+}
+.viewControl:hover {
+  background-color: #833a3a;
+
+  border: 1px #833a3a solid;
+}
+.shareControl:hover {
+  background-color: #833a3a;
+
+  border: 1px #833a3a solid;
+}
+.shareControl {
+  opacity: 1;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px #f4f4f4 solid;
+  font-size: 13px;
+  font-weight: 400;
+  font: normal normal bold 15px/18px Helvetica Neue; /* width: 8.9em; */
+  word-wrap: break-word;
+  margin-right: 10px;
+}
+.publishControl {
+  /* width: 8.9em; */
+  font-size: 13px;
+  text-align: center;
+  color: #ffffff;
+  font: normal normal bold 15px/18px Helvetica Neue;
+  background-color: #ed1c24;
+  border: 1px #ed1c24 solid;
+  border-radius: 5px;
+  word-wrap: break-word;
+  margin-right: 10px;
+}
+
+.audioControl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* column-gap: 0.5em; */
+  /* width: 4em; */
+  height: 40px;
+  background: #4a2828 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  z-index: 99;
+  /* padding-left: 1em;
+  padding-right: 1em; */
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: stretch;
+  justify-items: stretch;
+  z-index: 4;
+}
+
+.alginControl {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 0.4em;
+
+  /* padding-left: 1em;
+  padding-right: 1em; */
+  /* width: 8em; */
+  height: 40px;
+  background: #4a2828 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  z-index: 99;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: stretch;
+  justify-items: stretch;
+}
+.mediaControl:hover {
+  background-color: #833a3a;
+}
+.alginControl > span:hover,
+.textControl > span:hover,
+.zoomControl > span:hover,
+.sectionControl > span:hover,
+.audioControl > span:hover {
+  /* Apply styling to the first child here */
+  background-color: #833a3a;
+}
+.alginControl > :first-child,
+.textControl > :first-child,
+.zoomControl > :first-child,
+.sectionControl > :first-child,
+.audioControl > :first-child {
+  /* Apply styling to the first child here */
+  margin-left: 0px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.alginControl > :last-child,
+.textControl > :last-child,
+.zoomControl > :last-child,
+.sectionControl > :last-child,
+.audioControl > :last-child {
+  /* Apply styling to the first child here */
+  margin-right: 0px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.textControl {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /* column-gap: 0.3em; */
+  /* width: 10em; */
+  height: 40px;
+  background: #4a2828 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  z-index: 99;
+  /* padding-left: 0.5em;
+  padding-right: 0.5em; */
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: stretch;
+  justify-items: stretch;
+}
+
+.textControl .section {
+  color: white;
+}
+.mediaControl {
+  /* Layout Properties */
+  display: grid;
+  /* grid-template-columns: 0.8fr; */
+  /* column-gap: 0.3em;
+  padding-left: 0.5em;
+  padding-right: 0.5em; */
+  /* width: 7em; */
+  height: 40px;
+  background: #4a2828 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  z-index: 99;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: stretch;
+  justify-items: stretch;
+}
+.sectionControl {
+  /* Layout Properties */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* column-gap: 0.3em;
+  padding-left: 0.5em;
+  padding-right: 0.5em; */
+  /* width: 7em; */
+  height: 40px;
+  background: #4a2828 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  z-index: 99;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: stretch;
+  justify-items: stretch;
+}
+.zoomControl {
+  /* Layout Properties */
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  /* column-gap: 0.3em;
+  padding-left: 0.5em;
+  padding-right: 0.5em; */
+  /* width: 7em; */
+  height: 40px;
+  background: #4a2828 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  z-index: 99;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: stretch;
+  justify-items: stretch;
+}
+.zoom > label {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.zoomControl .zoom {
+  margin-top: 10px;
+  height: 22px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  column-gap: 10px;
+  border-radius: 4px;
+  width: 70px;
+}
+.zoom-input {
+  position: absolute;
+  width: 47px;
+  top: 12px;
+  height: 17px;
+  left: 4px;
+  border: none;
+  border-radius: 1px;
+}
+
+.zoomBtn {
+  width: 7px;
+  height: 7px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.percentage {
+  color: #a59998;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: Inter;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 10px;
+  height: 7px;
+}
+
+.headerPanel {
+  display: grid;
+
+  grid-template-columns: 0.7fr 1fr 1.5fr 2.5fr 2.2fr 1fr 2fr 1fr 0.6fr 1.3fr 1.3fr;
+
+  position: absolute;
+  left: 250px;
+  z-index: 1;
+  top: 20px;
+  column-gap: 16px;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: stretch;
+  justify-items: stretch;
+}
+.textControl > span,
+.mediaControl > span,
+.sectionControl > span,
+.zoomControl > span,
+.zoomControl > select,
+.alginControl > span,
+.audioControl > span {
+  width: 2em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+.span-style {
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+@media (min-width: 500px) and (max-width: 1650px) {
+  .textControl > span,
+  .mediaControl > span,
+  .sectionControl > span,
+  .zoomControl > select,
+  .zoomControl > span,
+  .alginControl > span,
+  .audioControl > span {
+    width: 0.8em;
+    justify-content: space-around;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+  }
+  .span-style {
+    background-size: 90% 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+}
+
+@media (min-width: 2080px) and (max-width: 2300px) {
+  .textControl > span,
+  .zoomControl > select,
+  .zoomControl > span,
+  .mediaControl > span,
+  .sectionControl > span,
+  .alginControl > span,
+  .audioControl > span {
+    width: 2.3em;
+    justify-content: space-around;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .span-style {
+    background-size: 72% 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+}
+@media (min-width: 2310px) and (max-width: 3000px) {
+  .textControl > span,
+  .zoomControl > span,
+  .mediaControl > span,
+  .sectionControl > span,
+  .zoomControl > select,
+  .alginControl > span,
+  .audioControl > span {
+    width: 3em;
+    justify-content: space-around;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
+@media (min-width: 3001px) and (max-width: 3832px) {
+  .textControl > span,
+  .zoomControl > span,
+  .mediaControl > span,
+  .sectionControl > span,
+  .zoomControl > select,
+  .alginControl > span,
+  .audioControl > span {
+    width: 4em;
+    justify-content: space-around;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
+@media (min-width: 3833px) {
+  .textControl > span,
+  .zoomControl > span,
+  .zoomControl > select,
+  .mediaControl > span,
+  .sectionControl > span,
+  .alginControl > span,
+  .audioControl > span {
+    width: 4.5em;
+    justify-content: space-around;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}

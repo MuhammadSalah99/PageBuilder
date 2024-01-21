@@ -1,0 +1,15 @@
+<svg width="83" height="42" viewBox="0 0 83 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 12409">
+<g id="Ellipse 1">
+<path id="Vector" d="M19.0001 39.5C29.2173 39.5 37.5001 30.7696 37.5001 20C37.5001 9.23045 29.2173 0.5 19.0001 0.5C8.78279 0.5 0.500061 9.23045 0.500061 20C0.500061 30.7696 8.78279 39.5 19.0001 39.5Z" stroke="white"/>
+</g>
+<g id="Ellipse 2">
+<path id="Vector_2" d="M38.5001 39.5C48.4412 39.5 56.5001 30.7696 56.5001 20C56.5001 9.23045 48.4412 0.5 38.5001 0.5C28.5589 0.5 20.5001 9.23045 20.5001 20C20.5001 30.7696 28.5589 39.5 38.5001 39.5Z" stroke="#F8F8F8"/>
+</g>
+<path id="Ellipse 3" opacity="0.998" d="M62.0001 42C73.598 42 83.0001 32.598 83.0001 21C83.0001 9.40202 73.598 0 62.0001 0C50.4021 0 41.0001 9.40202 41.0001 21C41.0001 32.598 50.4021 42 62.0001 42Z" fill="#626262"/>
+<g id="Icon feather-plus">
+<path id="Path 17" d="M60.834 19.223V25.577" stroke="#A8A8A8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path 18" d="M57.657 22.4H64.011" stroke="#A8A8A8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,192 @@
+.navCont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: auto;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./Inter/Inter-VariableFont_slnt\,wght.ttf") format("ttf");
+}
+.navStyle {
+  width: 100%;
+  height: 0px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  justify-content: center;
+}
+
+.darkOverlayStyle {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 300vh;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: none;
+}
+
+.centeredStyle {
+  position: fixed;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100vw;
+}
+
+.modalStyle {
+  width: 920px;
+  min-height: 600px;
+  background: #2b1313;
+  color: white;
+  z-index: 100;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  overflow-y: scroll;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* height: calc(100vh - 40px); */
+}
+
+.modalHead {
+  width: 95%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 9px auto;
+  align-items: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.modalHeadTitle {
+  color: #fff;
+  font-family: "Inter", sans-serif !important;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 200 !important;
+  line-height: normal;
+}
+
+.modalBlocksCont {
+  display: flex;
+  overflow-y: scroll;
+  margin-top: 20px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  flex-direction: column;
+  padding-top: 30px;
+  border-top: 1px solid #4a2828;
+  height: 383px;
+  overflow-y:scroll ;
+}
+
+.modalAddButton {
+  background-color: transparent;
+  width: 90%;
+  margin-left: -42px;
+  height: 35px;
+  border: none;
+  color: #6d4545;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 2px solid #4a2b2c;
+  margin-bottom: 30px;
+}
+.id-element {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 400;
+  font-size: 0.8em !important;
+}
+.searchBox {
+  width: 95%;
+  display: flex;
+  margin-left: 2.5%;
+  margin-top: 10px;
+  margin-bottom: 26px;
+}
+.category {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 23%;
+  position: absolute;
+  top: 115px;
+  /* background-color: #7e262a; */
+}
+.category .Image {
+  color: #fff;
+  font-family: "Inter", sans-serif !important;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  border-bottom: 1px solid #c64848;
+  width: 50%;
+}
+.category > div {
+  color: #6d4545;
+  font-family: "Inter", sans-serif !important;
+  font-size: 1em;
+  font-style: normal;
+  line-height: 35px;
+  cursor: pointer;
+  padding-right: 50px;
+}
+.searchBoxInput {
+  width: 80%;
+  height: 35px;
+  padding: 0px;
+  padding-left: 0px;
+  border-radius: 6px;
+  background-color: #411d1d;
+  border: none;
+  color: #c35c5c;
+  padding-left: 30px;
+}
+.searchBoxInput::placeholder {
+  color: #b97272;
+  font-family: "Inter", sans-serif !important;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.searchicon {
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 12px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../../assets/search.svg);
+}
+.searchBoxButton {
+  color: #f5f4f4;
+  font-family: "Inter", sans-serif !important;
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 14%;
+  margin-left: 2%;
+  height: 35px;
+  border-radius: 6px;
+  background-color: #7e262a;
+  border: none;
+}

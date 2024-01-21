@@ -1,0 +1,99 @@
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.frame-el-title {
+  text-align: left;
+  font-weight: normal;
+  align-self: flex-start;
+  margin-left: 2.25rem;
+  color: #868686;
+  font: normal normal normal 0.9375rem/1.0625rem Helvetica Neue;
+  margin-bottom: 16px;
+}
+
+.input-frame-el {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 0.3125rem;
+}
+
+.input-frame-el-position {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.frame-position {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 2.5rem;
+  gap: 0.4375rem;
+}
+
+.frame-position-label {
+  font: normal normal normal 0.75rem/1.0625rem Helvetica Neue;
+  letter-spacing: 0rem;
+  color: #868686;
+}
+
+.frame-input-input {
+  width: 1.9375rem;
+  height: 1.0625rem;
+  -moz-appearance: textfield;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  font: normal normal normal 0.75rem/1.0625rem Helvetica Neue;
+  letter-spacing: 0rem;
+  color: #bababa;
+}
+.frame-input-input:focus {
+  border: none;
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button.frame-input-input,
+input[type="number"]::-webkit-outer-spin-button.frame-input-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.control-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.svg path {
+  width: 0.8206rem;
+  height: 0.8206rem;
+  fill: #b5b5b5;
+}
+

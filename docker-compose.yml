@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  storyme-editor:
+    image: registry.cockerel.info/storyme/editor:latest
+    ports:
+      - "8080:80"  # Map port 80 of the container to port 8080 on the host
+    restart: always  # Ensures the container always restarts
+    volumes:
+      # Mount the project directory to the /app directory in the container
+      # Use this only if you need to reflect changes made on your host in the container
+      - .:/app
+      # Optional: Custom Nginx configuration
+      # - ./path/to/your/nginx.conf:/etc/nginx/nginx.conf
+    # Uncomment and set environment variables if needed, for example:
+    # environment:
+    #   ENV_VAR_NAME: value

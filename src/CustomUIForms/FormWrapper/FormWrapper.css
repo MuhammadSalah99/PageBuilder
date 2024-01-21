@@ -1,0 +1,9 @@
+.form-wrapper-trait-manager{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1px;
+  margin-top:1rem;
+  width: 100%;
+}

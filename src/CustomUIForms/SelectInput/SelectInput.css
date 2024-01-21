@@ -1,0 +1,14 @@
+select.trait-manager-select{
+  background-color: #462627;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: white;
+
+  height: 39px;
+  width: calc(100% - 20px);
+  padding: 10px;
+
+  font-family: var(--font-family);
+
+}
